@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | puzzle2</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" width=1440 height=900 style="width: 1440px; height: 900px; background: #303030"></canvas>
+    <script src="Build/1de4e3bedae2380dcefcac20dc0bad02.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/7caa3eeea24d87a7abc8a12e6f4f3f32.data.unityweb",
+        frameworkUrl: "Build/0b814369fa6e8f65e05e58a7075b5eff.js.unityweb",
+        codeUrl: "Build/e3ea7522c2a587646f7512134922d3d9.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "puzzle2",
+        productVersion: "1",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      });
+    </script>
+  </body>
+</html>

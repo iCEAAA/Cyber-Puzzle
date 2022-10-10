@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1492943439954628}
+  m_IsPrefabAsset: 1
+--- !u!1 &1492943439954628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4896564377147748}
+  - component: {fileID: 114073804673221668}
+  m_Layer: 0
+  m_Name: Localization Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4896564377147748
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1492943439954628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114073804673221668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1492943439954628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1358f55a3c9937f4ba1da6a0cce086a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Languages:
+  - English
+  - French
+  CurrentLanguage: 0
+  Localization:
+  - Key: start
+    Languages:
+    - Start
+    - "D\xE9but"
+  - Key: home
+    Languages:
+    - Home
+    - Accueil
+  - Key: categories
+    Languages:
+    - Categories
+    - "Cat\xE9gories"
+  - Key: settings
+    Languages:
+    - Settings
+    - "Param\xE8tres"
+  - Key: sound
+    Languages:
+    - Sound
+    - Du son
+  - Key: vibration
+    Languages:
+    - Vibration
+    - Vibrer
+  - Key: loading
+    Languages:
+    - Loading
+    - Chargement
+  LocalizationKeys:
+  - 
+  - categories
+  - home
+  - loading
+  - settings
+  - sound
+  - start
+  - vibration
+  GoogleSheetID: 142k1PjV8keOF57uvdKPd4xT2QZP0OYvluRynIpASNEY
+  GoogleSheetGid: 737405473
+  SpreadsheetData: 
+  DisableImportButtons: 0
+  MinifyJson: 1

@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1569120604742332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4770185765034036}
+  - component: {fileID: 114031718397099562}
+  m_Layer: 0
+  m_Name: Category Creator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4770185765034036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569120604742332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114031718397099562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569120604742332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9e3a127035001040978bbfb455d8602, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CategoryList:
+  - Enabled: 1
+    CategoryName: Food
+    CategoryImage: {fileID: 21300000, guid: fc9e2a00a28748745ae480762fe6fd27, type: 3}
+    Mode: 1
+    OnlinePath: 
+    OfflineFile: {fileID: 4900000, guid: d562661e60b4cb64891b05b19b5d6165, type: 3}
+    ShuffleQuestions: 1
+    ShuffleAnswers: 1
+    LimitQuestions: 1
+    QuestionLimit: 5
+    CustomTimerAmount: 0
+    TimerAmount: 8
+    CustomLivesAmount: 0
+    LivesCount: 0
+    Language: 0
+    HighscorePref: FoodScorePref
+  - Enabled: 1
+    CategoryName: Banking
+    CategoryImage: {fileID: 21300000, guid: 3889a4bfddecbf54caef56af4e5f0bab, type: 3}
+    Mode: 0
+    OnlinePath: https://mintonne.com/JSON.json
+    OfflineFile: {fileID: 4900000, guid: d562661e60b4cb64891b05b19b5d6165, type: 3}
+    ShuffleQuestions: 1
+    ShuffleAnswers: 1
+    LimitQuestions: 0
+    QuestionLimit: 5
+    CustomTimerAmount: 0
+    TimerAmount: 0
+    CustomLivesAmount: 0
+    LivesCount: 0
+    Language: 0
+    HighscorePref: BankingScorePref
+  - Enabled: 1
+    CategoryName: La mesure
+    CategoryImage: {fileID: 21300000, guid: 7300200f32bb5ea41ab48ec5fcf507fd, type: 3}
+    Mode: 0
+    OnlinePath: https://mintonne.com/JSON.json
+    OfflineFile: {fileID: 4900000, guid: d562661e60b4cb64891b05b19b5d6165, type: 3}
+    ShuffleQuestions: 1
+    ShuffleAnswers: 1
+    LimitQuestions: 0
+    QuestionLimit: 0
+    CustomTimerAmount: 0
+    TimerAmount: 0
+    CustomLivesAmount: 0
+    LivesCount: 0
+    Language: 0
+    HighscorePref: LamesureScorePref
+  - Enabled: 1
+    CategoryName: 'Mode et design '
+    CategoryImage: {fileID: 21300000, guid: ef149211612e6fa47b088a14864974eb, type: 3}
+    Mode: 1
+    OnlinePath: 
+    OfflineFile: {fileID: 4900000, guid: d562661e60b4cb64891b05b19b5d6165, type: 3}
+    ShuffleQuestions: 1
+    ShuffleAnswers: 1
+    LimitQuestions: 0
+    QuestionLimit: 0
+    CustomTimerAmount: 0
+    TimerAmount: 0
+    CustomLivesAmount: 0
+    LivesCount: 0
+    Language: 0
+    HighscorePref: ModeetdesignScorePref
+  CategoryImageSize: 185
+  CategoryColumnCount: 3
+  CategoryFont: {fileID: 0}
+  CategoryFontStyle: 0
+  CategoryBestFit: 1
+  CategoryFontSize: 40
+  CategoryMinSize: 20
+  CategoryMaxSize: 50
+  ProfileImageSize: 185
+  ProfileColumnCount: 3
+  ProfileNameFont: {fileID: 0}
+  ProfileNameFontStyle: 0
+  ProfileNameBestFit: 1
+  ProfileNameFontSize: 40
+  ProfileNameMinSize: 20
+  ProfileNameMaxSize: 50
+  ProfileHighscoreFont: {fileID: 0}
+  ProfileHighscoreFontStyle: 0
+  ProfileHighscoreBestFit: 1
+  ProfileHighscoreFontSize: 45
+  ProfileHighscoreMinSize: 20
+  ProfileHighscoreMaxSize: 50

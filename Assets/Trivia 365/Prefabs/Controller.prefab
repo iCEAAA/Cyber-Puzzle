@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1539151625031718}
+  m_IsPrefabAsset: 1
+--- !u!1 &1539151625031718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4840405526705808}
+  - component: {fileID: 114607400401676632}
+  - component: {fileID: 114561700109354452}
+  - component: {fileID: 82209192836289094}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4840405526705808
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539151625031718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82209192836289094
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539151625031718}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.75
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 0
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114561700109354452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539151625031718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 369d0bf9477d88e49873fdcb74531ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testMode: 0
+  ConsentCanvas: {fileID: 0}
+  EnableInterstitialAds: 1
+  EnableRewardedAds: 1
+  ShowAfterHowManyGameovers: 2
+  AndroidAppId: ENTER_APP_ID_HERE
+  AndroidInterstitialId: ENTER_INTERSTITIAL_ID_HERE
+  AndroidRewardedVideoId: ENTER_REWARDED_VIDEO_ID_HERE
+--- !u!114 &114607400401676632
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539151625031718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d81553f40f22f841ba34e615c02b3ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HomeCanvas: {fileID: 0}
+  CategoriesCanvas: {fileID: 0}
+  GameCanvas: {fileID: 0}
+  PauseCanvas: {fileID: 0}
+  GameOverCanvas: {fileID: 0}
+  TopbarTitle: {fileID: 0}
+  HighscorePage: {fileID: 0}
+  SettingsPage: {fileID: 0}
+  BackButton: {fileID: 0}
+  ProfileButton: {fileID: 0}
+  SettingsButton: {fileID: 0}
+  SoundButton: {fileID: 0}
+  VibrationButton: {fileID: 0}
+  CacheButton: {fileID: 0}
+  CacheText: {fileID: 0}
+  AdExperienceButton: {fileID: 0}
+  CategoryGroup: {fileID: 0}
+  ErrorPanel: {fileID: 0}
+  LoadingAnimation: {fileID: 0}
+  CategoryLoading: {fileID: 0}
+  CategoriesParentScript: {fileID: 0}
+  CategoryName: {fileID: 0}
+  TimerText: {fileID: 0}
+  ScoreText: {fileID: 0}
+  LivesText: {fileID: 0}
+  MainQuestionDisplay: {fileID: 0}
+  AltQuestionDisplay: {fileID: 0}
+  ImageDisplay: {fileID: 0}
+  AnswerBarsParent: {fileID: 0}
+  ShortAnswerBarsParent: {fileID: 0}
+  ToFAnswersParent: {fileID: 0}
+  ToFAnswersHeading: {fileID: 0}
+  PostQuestionButtons: {fileID: 0}
+  ExplanationButton: {fileID: 0}
+  ExplanationPanel: {fileID: 0}
+  ExtraLifeButton: {fileID: 0}
+  ExplanationDisplay: {fileID: 0}
+  ImageDownloadAnimation: {fileID: 0}
+  QuitGamePanel: {fileID: 0}
+  AnswerBarsCanvasGroup: {fileID: 0}
+  ShortAnswerBarsCanvasGroup: {fileID: 0}
+  ToFAnswerHolder:
+  - {fileID: 0}
+  - {fileID: 0}
+  ToFAnswerHoldersCanvasGroup: {fileID: 0}
+  AnswerDisplay:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  AnswerParent:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ShortAnswerDisplay:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ShortAnswerParent:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  LivesAnimation: {fileID: 0}
+  ScoreAnimation: {fileID: 0}
+  CategoryImage: {fileID: 0}
+  CategoryNameText: {fileID: 0}
+  GameScoreText: {fileID: 0}
+  HighscoreText: {fileID: 0}
+  SkipCategoriesDisplay: 0
+  EnablePausing: 1
+  DownloadTimeout: 15
+  EnableTimer: 1
+  UniversalTimerAmount: 10
+  PointsPerSecond: 10
+  PointsPerQuestion: 100
+  EnableLives: 1
+  UniversalLivesAmount: 3
+  ShowPostQuestionButtons: 1
+  PostQuestionDelay: 2
+  DefaultColor: {r: 1, g: 1, b: 1, a: 1}
+  CorrectColor: {r: 0, g: 1, b: 0, a: 1}
+  WrongColor: {r: 1, g: 0, b: 0, a: 1}
+  CorrectSound: {fileID: 8300000, guid: 3b4967a22a815034f86c91e055ecdce6, type: 3}
+  WrongSound: {fileID: 8300000, guid: 97171909ca205a04ead0127a3073b300, type: 3}
+  TickingSound: {fileID: 8300000, guid: 4f532a1f8181b704a8c00f6fbb72166c, type: 3}
+  QuestionList: []
+  AnswersList: []
+  AudioPlayer: {fileID: 82209192836289094}
